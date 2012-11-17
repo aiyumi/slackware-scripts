@@ -40,3 +40,5 @@ because I don't intend to run any server.
 * xap: remove things I don't use, like the various window managers
 (Blackbox, Fvwm, Windowmaker), Thunderbird, some media players, Rrdesktop,
 Xchat...
+
+* xfce: skip everything. I decided to use Fluxbox and not install Xfce.

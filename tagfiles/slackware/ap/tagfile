@@ -26,6 +26,7 @@ gphoto2:ADD
 groff:ADD
 gutenprint:ADD
 hplip:ADD
+htop:ADD
 ispell:SKP
 jed:SKP
 joe:SKP
@@ -47,7 +48,6 @@ mpg123:ADD
 mysql:SKP
 nano:ADD
 normalize:ADD
-ntfsprogs:ADD
 pm-utils:ADD
 powertop:ADD
 radeontool:ADD
@@ -58,6 +58,7 @@ sc:SKP
 screen:ADD
 seejpeg:ADD
 slackpkg:ADD
+soma:ADD
 sox:ADD
 sqlite:ADD
 sudo:ADD

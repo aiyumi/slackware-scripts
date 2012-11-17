@@ -15,6 +15,7 @@ gcc:ADD
 gcc-g++:ADD
 gcc-gfortran:SKP
 gcc-gnat:SKP
+gcc-go:SKP
 gcc-java:SKP
 gcc-objc:SKP
 gdb:ADD
@@ -26,6 +27,7 @@ indent:ADD
 intltool:ADD
 kernel-headers:ADD
 libtool:ADD
+llvm:ADD
 m4:ADD
 make:ADD
 mercurial:SKP

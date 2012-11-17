@@ -1,3 +1,5 @@
+ModemManager:ADD
+NetworkManager:ADD
 alpine:SKP
 autofs:ADD
 biff+comsat:ADD
@@ -9,6 +11,7 @@ bootp:SKP
 bridge-utils:ADD
 bsd-finger:ADD
 ca-certificates:ADD
+cifs-utils:SKP
 crda:SKP
 curl:ADD
 cyrus-sasl:ADD
@@ -30,6 +33,7 @@ htdig:ADD
 httpd:SKP
 icmpinfo:SKP
 idnkit:ADD
+iftop:ADD
 imapd:ADD
 inetd:ADD
 iproute2:ADD
@@ -40,14 +44,6 @@ ipw2100-fw:ADD
 ipw2200-fw:ADD
 irssi:SKP
 iw:ADD
-iwlwifi-100-ucode:ADD
-iwlwifi-1000-ucode:ADD
-iwlwifi-3945-ucode:ADD
-iwlwifi-4965-ucode:ADD
-iwlwifi-5000-ucode:ADD
-iwlwifi-5150-ucode:ADD
-iwlwifi-6000-ucode:ADD
-iwlwifi-6xxx-ucode:ADD
 lftp:SKP
 libassuan:ADD
 libgcrypt:ADD
@@ -58,6 +54,7 @@ lynx:ADD
 mailx:ADD
 mcabber:SKP
 metamail:ADD
+mobile-broadband-provider-info:ADD
 mtr:ADD
 mutt:ADD
 nc:SKP
@@ -76,6 +73,7 @@ netkit-rwall:SKP
 netkit-rwho:SKP
 netkit-timed:SKP
 netpipes:SKP
+nettle:ADD
 netwatch:ADD
 network-scripts:ADD
 netwrite:SKP
@@ -92,6 +90,7 @@ openobex:ADD
 openssh:ADD
 openssl:ADD
 openvpn:SKP
+p11-kit:ADD
 php:SKP
 pidentd:ADD
 pinentry:ADD
@@ -106,10 +105,6 @@ rdist:SKP
 rfkill:ADD
 rp-pppoe:ADD
 rsync:ADD
-rt2860-firmware:ADD
-rt2870-firmware:ADD
-rt61-firmware:ADD
-rt71w-firmware:ADD
 samba:SKP
 sendmail:ADD
 sendmail-cf:ADD

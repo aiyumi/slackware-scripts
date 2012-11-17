@@ -29,13 +29,13 @@ file:ADD
 findutils:ADD
 floppy:ADD
 gawk:ADD
-gdisk:ADD
 genpower:SKP
 gettext:ADD
 getty-ps:SKP
 glibc-solibs:ADD
 glibc-zoneinfo:ADD
 gpm:ADD
+gptfdisk:ADD
 grep:ADD
 gzip:ADD
 hdparm:ADD
@@ -51,6 +51,7 @@ kernel-huge:ADD
 kernel-huge-smp:ADD
 kernel-modules:ADD
 kernel-modules-smp:ADD
+kmod:ADD
 less:ADD
 lha:SKP
 libcgroup:ADD
@@ -62,7 +63,6 @@ mcelog:ADD
 mdadm:SKP
 minicom:SKP
 mkinitrd:ADD
-module-init-tools:ADD
 mt-st:SKP
 mtx:SKP
 ncompress:ADD
@@ -94,7 +94,10 @@ tcsh:SKP
 time:ADD
 tree:ADD
 udev:ADD
-unarj:SKP
+udisks:ADD
+udisks2:ADD
+unarj:ADD
+upower:ADD
 usb_modeswitch:ADD
 usbutils:ADD
 utempter:ADD
