@@ -1,0 +1,42 @@
+These are my custom Slackware tagfiles and mostly reflect my personal 
+preferences.
+
+This directory also contains a script called "tagfilediff.sh", used for
+comparing tagfiles between Slackware versions.
+
+An overview of what these tagfiles install or skip:
+
+* a: install almost everything.
+
+*ap: remove some email clients (Elm, Pine), the various text editors (Joe, Jove 
+etc.). As I only use Vim, I add Vi/Vim and skip the rest.
+
+* d: I remove things that I probably won't use and would only waste space, such
+as GCC-Gfortran and other unusual compilers.
+
+* e: I currently don't use Emacs.
+
+* f: install everything.
+
+* k: install everything.
+
+* kde: I don't install KDE.
+
+* kdei: skip, because no KDE.
+
+* l: install everything. Its good to have all the libraries installed, because
+Slackware have a good selection and many of these libs are required by 
+a lot of external packages.
+
+* n: remove Netatalk, the various FTP and chat clients, and also the servers, 
+because I don't intend to run any server.
+
+* t: install everything.
+
+* tcl: install everything.
+
+* x: install everything.
+
+* xap: remove things I don't use, like the various window managers
+(Blackbox, Fvwm, Windowmaker), Thunderbird, some media players, Rrdesktop,
+Xchat...
