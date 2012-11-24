@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Create '/dev/(soft)synth' if not present
+(cd /dev
+if [ ! -c /dev/softsynth ]; then
+echo "Creating '/dev/softsynth'"
+mknod softsynth c 10 26
+fi
+if [ ! -c /dev/synth ]; then
+echo "Creating '/dev/synth'"
+mknod synth c 10 25
+fi
+sleep 1
+)
+
+# Load the software synthesizer
+echo "soft" > /sys/accessibility/speakup/synth
+sleep 0.5
+
+# Start Espeakup
+espeakup -V en
