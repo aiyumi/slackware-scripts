@@ -1,0 +1,6 @@
+This is for recompiling an older version of GObject Introspection, because the
+one that comes with Slackware is incompatible with some programs (for example,
+some dependencies of the Orca screen reader).
+
+Before installing this, make sure to uninstall the version that comes with
+Slackware.

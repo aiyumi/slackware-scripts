@@ -1,0 +1,12 @@
+To use these SlackBuilds with Sbopkg, download and rename this "slackbuilds"
+directory to "aiyumisb" and place it into "/var/lib/sbopkg". Copy the
+file "100-aiyumi.repo" to your "/etc/sbopkg/repos.d", then edit
+"/etc/sbopkg/sbopkg.conf" to set it as your default repository, like this:
+
+REPO_BRANCH=${REPO_BRANCH:-local}
+REPO_NAME=${REPO_NAME:-aiyumisb}
+
+Or, if you don't want to make it your default, you can start Sbopkg with this
+command:
+
+# sbopkg -V aiyumisb/local

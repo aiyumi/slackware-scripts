@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+midish: midish - shell-like MIDI sequencer/filter for BSD and Linux
+midish:
+midish: Midish is a MIDI sequencer/filter implemented as a shell-like
+midish: interpreter. It's intended to be lightweight, fast and reliable 
+midish: for real-time performance. Important features are: multiple
+midish: MIDI devices handling, synchronisation to external MIDI devices,
+midish: real-time MIDI filtering/routing, track recording and editing,
+midish: import and export of standard MIDI files, sysex messages...
+midish:
+midish: Home page:
+midish: http://www.midish.org/

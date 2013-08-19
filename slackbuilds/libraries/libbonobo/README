@@ -1,0 +1,6 @@
+This is a modified version of the slackbuilds.org script.
+
+The bonobo library supports independant CORBA interfaces for
+creating reusable components. It provides GNOME with a framework for
+handling compound documents, such as embedding a spreadsheet in a
+word processor document.
