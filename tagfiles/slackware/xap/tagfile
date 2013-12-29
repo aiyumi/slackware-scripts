@@ -1,6 +1,6 @@
-MPlayer:ADD
-audacious:ADD
-audacious-plugins:ADD
+MPlayer:SKP
+audacious:SKP
+audacious-plugins:SKP
 blackbox:SKP
 blueman:ADD
 electricsheep:SKP
@@ -15,7 +15,7 @@ gnuplot:SKP
 gucharmap:ADD
 gv:ADD
 imagemagick:ADD
-mozilla-firefox:ADD
+mozilla-firefox:SKP
 mozilla-thunderbird:SKP
 network-manager-applet:ADD
 pan:ADD

@@ -56,7 +56,7 @@ gmm:ADD
 gmp:ADD
 gnome-icon-theme:ADD
 gnome-keyring:ADD
-gobject-introspection:ADD
+gobject-introspection:SKP
 grantlee:ADD
 gsettings-desktop-schemas:ADD
 gst-plugins-base:ADD
@@ -189,7 +189,7 @@ popt:ADD
 pycairo:ADD
 pycups:ADD
 pycurl:ADD
-pygobject:ADD
+pygobject:SKP
 pygtk:ADD
 pyrex:ADD
 qca:ADD

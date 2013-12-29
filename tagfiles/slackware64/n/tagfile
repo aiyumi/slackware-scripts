@@ -44,7 +44,7 @@ ipw2100-fw:ADD
 ipw2200-fw:ADD
 irssi:SKP
 iw:ADD
-lftp:SKP
+lftp:ADD
 libassuan:ADD
 libgcrypt:ADD
 libgpg-error:ADD
@@ -58,7 +58,7 @@ mobile-broadband-provider-info:ADD
 mtr:ADD
 mutt:ADD
 nc:SKP
-ncftp:ADD
+ncftp:SKP
 net-snmp:ADD
 net-tools:ADD
 netatalk:SKP
