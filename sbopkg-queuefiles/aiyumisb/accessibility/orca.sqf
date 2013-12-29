@@ -1,5 +1,5 @@
 # Sbopkg queuefile for Orca
-# Tested on Slackware 14.0
+# Tested on Slackware 14.1
 # Created by Aiyumi
 dotconf
 speech-dispatcher
@@ -13,7 +13,5 @@ libgnome
 pygobject
 gnome-python
 pyxdg
-at-spi2-core
-at-spi2-atk
 pyatspi
-orca-xdesktop
+orca

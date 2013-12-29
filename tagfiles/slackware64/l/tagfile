@@ -170,7 +170,7 @@ libxslt:ADD
 libyaml:ADD
 libzip:ADD
 loudmouth:SKP
-lzo:SKP
+lzo:ADD
 media-player-info:ADD
 mhash:ADD
 mm:ADD
