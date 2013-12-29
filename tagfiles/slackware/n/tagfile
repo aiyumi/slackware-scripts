@@ -12,6 +12,7 @@ bridge-utils:ADD
 bsd-finger:ADD
 ca-certificates:ADD
 cifs-utils:SKP
+conntrack-tools:ADD
 crda:SKP
 curl:ADD
 cyrus-sasl:ADD
@@ -19,6 +20,7 @@ dhcp:ADD
 dhcpcd:ADD
 dirmngr:ADD
 dnsmasq:ADD
+ebtables:ADD
 elm:SKP
 epic5:ADD
 ethtool:ADD
@@ -37,6 +39,7 @@ iftop:ADD
 imapd:ADD
 inetd:ADD
 iproute2:ADD
+ipset:ADD
 iptables:ADD
 iptraf-ng:ADD
 iputils:ADD
@@ -49,6 +52,16 @@ libassuan:ADD
 libgcrypt:ADD
 libgpg-error:ADD
 libksba:ADD
+libmbim:ADD
+libmnl:ADD
+libnetfilter_acct:ADD
+libnetfilter_conntrack:ADD
+libnetfilter_cthelper:ADD
+libnetfilter_cttimeout:ADD
+libnetfilter_log:ADD
+libnetfilter_queue:ADD
+libnfnetlink:ADD
+libqmi:ADD
 links:ADD
 lynx:ADD
 mailx:ADD
@@ -78,6 +91,7 @@ netwatch:ADD
 network-scripts:ADD
 netwrite:SKP
 newspost:SKP
+nfacct:ADD
 nfs-utils:ADD
 nmap:ADD
 nn:SKP
@@ -118,6 +132,7 @@ tftp-hpa:SKP
 tin:SKP
 traceroute:ADD
 trn:SKP
+ulogd:ADD
 uucp:SKP
 vlan:SKP
 vsftpd:SKP

@@ -11,6 +11,8 @@ apr:ADD
 apr-util:ADD
 aspell:ADD
 aspell-en:ADD
+at-spi2-atk:ADD
+at-spi2-core:ADD
 atk:ADD
 attica:ADD
 audiofile:ADD
@@ -25,6 +27,7 @@ db44:ADD
 db48:ADD
 dbus-glib:ADD
 dbus-python:ADD
+dconf:ADD
 desktop-file-utils:ADD
 djvulibre:ADD
 ebook-tools:ADD
@@ -38,6 +41,7 @@ freetype:ADD
 fribidi:ADD
 fuse:ADD
 gamin:ADD
+gc:ADD
 gcr:ADD
 gd:ADD
 gdbm:ADD
@@ -56,6 +60,8 @@ gmm:ADD
 gmp:ADD
 gnome-icon-theme:ADD
 gnome-keyring:ADD
+gnome-themes-standard:ADD
+gnu-efi:SKP
 gobject-introspection:SKP
 grantlee:ADD
 gsettings-desktop-schemas:ADD
@@ -67,6 +73,7 @@ gtk+2:ADD
 gtk+3:ADD
 gtkspell:ADD
 gvfs:ADD
+harfbuzz:ADD
 herqq:ADD
 hicolor-icon-theme:ADD
 hunspell:ADD
@@ -98,6 +105,7 @@ libdbusmenu-qt:ADD
 libdiscid:ADD
 libdvdread:ADD
 libelf:ADD
+libevent:ADD
 libexif:ADD
 libffi:ADD
 libglade:ADD
@@ -136,6 +144,7 @@ libproxy:ADD
 libraw1394:ADD
 librsvg:ADD
 libsamplerate:ADD
+libsecret:ADD
 libsndfile:ADD
 libsoup:ADD
 libspectre:ADD
@@ -144,6 +153,7 @@ libtasn1:ADD
 libtermcap:ADD
 libtheora:ADD
 libtiff:ADD
+libunistring:ADD
 libusb:ADD
 libusb-compat:ADD
 libvisual:ADD
@@ -197,6 +207,7 @@ qca-cyrus-sasl:ADD
 qca-gnupg:ADD
 qca-ossl:ADD
 qimageblitz:ADD
+qjson:ADD
 qt:ADD
 qtscriptgenerator:ADD
 raptor2:ADD

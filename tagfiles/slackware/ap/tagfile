@@ -4,7 +4,6 @@ alsa-utils:ADD
 amp:SKP
 ash:SKP
 at:SKP
-aumix:ADD
 bc:ADD
 bpe:SKP
 cdparanoia:ADD
@@ -28,6 +27,7 @@ gutenprint:ADD
 hplip:ADD
 htop:ADD
 ispell:SKP
+itstool:ADD
 jed:SKP
 joe:SKP
 jove:SKP
@@ -41,17 +41,16 @@ lxc:SKP
 madplay:SKP
 man:ADD
 man-pages:ADD
+mariadb:SKP
 mc:ADD
 moc:ADD
 most:ADD
 mpg123:ADD
-mysql:SKP
 nano:ADD
 normalize:ADD
 pm-utils:ADD
 powertop:ADD
 radeontool:ADD
-rexima:SKP
 rpm:ADD
 rzip:SKP
 sc:SKP
@@ -63,7 +62,9 @@ sox:ADD
 sqlite:ADD
 sudo:ADD
 sysstat:SKP
+terminus-font:ADD
 texinfo:ADD
+tmux:ADD
 vbetool:SKP
 vim:ADD
 vorbis-tools:ADD

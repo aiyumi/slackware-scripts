@@ -3,6 +3,7 @@ audacious:SKP
 audacious-plugins:SKP
 blackbox:SKP
 blueman:ADD
+ddd:SKP
 electricsheep:SKP
 fluxbox:ADD
 fvwm:SKP
@@ -42,4 +43,3 @@ xpdf:ADD
 xsane:ADD
 xscreensaver:ADD
 xv:ADD
-xxgdb:SKP

@@ -23,6 +23,7 @@ gettext-tools:ADD
 git:ADD
 gperf:ADD
 guile:ADD
+help2man:ADD
 indent:ADD
 intltool:ADD
 kernel-headers:ADD
@@ -32,6 +33,7 @@ m4:ADD
 make:ADD
 mercurial:SKP
 nasm:ADD
+open-cobol:SKP
 oprofile:SKP
 p2c:SKP
 perl:ADD

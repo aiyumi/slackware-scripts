@@ -22,7 +22,9 @@ dialog:ADD
 dosfstools:ADD
 e2fsprogs:ADD
 ed:ADD
+efibootmgr:SKP
 eject:ADD
+elilo:SKP
 elvis:ADD
 etc:ADD
 file:ADD
@@ -37,6 +39,7 @@ glibc-zoneinfo:ADD
 gpm:ADD
 gptfdisk:ADD
 grep:ADD
+grub:SKP
 gzip:ADD
 hdparm:ADD
 infozip:ADD
@@ -64,6 +67,7 @@ mtx:SKP
 ncompress:ADD
 ntfs-3g:ADD
 openssl-solibs:ADD
+os-prober:SKP
 patch:ADD
 pciutils:ADD
 pcmciautils:ADD
