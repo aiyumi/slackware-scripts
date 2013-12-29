@@ -25,8 +25,10 @@ as GCC-Gfortran and other unusual compilers.
 * kdei: skip, because no KDE.
 
 * l: install everything. Its good to have all the libraries installed, because
-Slackware have a good selection and many of these libs are required by 
-a lot of external packages.
+Slackware has a good selection and many of these libs are required by 
+a lot of external packages. Although I skip Gobject-Introspection and Pygobject
+because I need to recompile them with different options for installing the Orca 
+screen reader.
 
 * n: remove Netatalk, the various FTP and chat clients, and also the servers, 
 because I don't intend to run any server.
@@ -39,6 +41,8 @@ because I don't intend to run any server.
 
 * xap: remove things I don't use, like the various window managers
 (Blackbox, Fvwm, Windowmaker), Thunderbird, some media players, Rrdesktop,
-Xchat...
+Xchat... I skip Firefox because it needs to be recompiled to have accessibility
+ support. I also skip MPlayer because I'll need to recompile it, to add support
+for MP3 and the other proprietary codecs.
 
 * xfce: skip everything. I decided to use Fluxbox and not install Xfce.
