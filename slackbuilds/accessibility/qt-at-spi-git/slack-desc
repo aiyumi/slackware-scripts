@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in. You must
+# make exactly 11 lines for the formatting to be correct. It's also
+# customary to leave one space after the ':'.
+
+    |-----handy-ruler----------------------------------------------------------|
+qt-at-spi: qt-at-spi (Qt AT-SPI2 bridge.)
+qt-at-spi:
+qt-at-spi: This is a Qt plugin that bridges Qt's accessibility API to AT-SPI2.
+qt-at-spi: With recent versions of AT-SPI2 this should make Qt applications
+qt-at-spi: accessible with the help of tools such as Gnome's Orca screen-reader.
+qt-at-spi:
+qt-at-spi: Homepage:
+qt-at-spi: http://projects.kde.org/qtatspi
+qt-at-spi:
+qt-at-spi:
+qt-at-spi:

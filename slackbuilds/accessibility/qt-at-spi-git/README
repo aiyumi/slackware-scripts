@@ -1,0 +1,7 @@
+Needs the "kdelibs" package (comes with Slackware) installed first.
+
+After compiling and installing this package, you need to add
+
+export QT_ACCESSIBILITY=1
+
+to your "~/.xinitrc", before Orca is started.
