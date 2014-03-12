@@ -93,10 +93,6 @@ cp -a \
   $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
-if [ ! -f $PKG/etc/midishrc ]; then
-    cp $PKG/usr/share/examples/midish/midishrc $PKG/etc
-fi
-
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cd $PKG
