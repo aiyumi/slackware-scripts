@@ -1,0 +1,4 @@
+Java ATK Wrapper  is a wrapper to make Java GUI applications accessible to
+screen readers.
+
+To compile this, you need to have JDK (not JRE) installed.
