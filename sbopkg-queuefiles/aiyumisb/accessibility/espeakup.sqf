@@ -1,5 +1,5 @@
 # Sbopkg queuefile for Espeakup
-# Tested on Slackware 14.0
+# Tested on Slackware 14.1
 # Created by Aiyumi
 
 portaudio

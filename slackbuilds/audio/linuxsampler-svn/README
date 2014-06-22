@@ -1,0 +1,4 @@
+This requires DSSI (which requires JACK, LADSPA and Liblo) and LV2. You
+must install them from somewhere else (e.g. SlackBuilds.org) first.
+
+Note: this SlackBuild compiles from SVN.
