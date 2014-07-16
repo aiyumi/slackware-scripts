@@ -1,0 +1,15 @@
+This is a modified version of the slackbuilds.org script.
+If you are on Slack64, you need the multilib packages installed. See:
+
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib
+
+You also need JACK compiled for 32-bit (compile it as per the instructions from the multilib 
+page and use "convertpkg-compat32" on the package before installing).
+
+
+The dssi-vst package contains a wrapper plugin for Windows VSTs that
+enables them to be used by DSSI hosts running on Linux or similar on i386
+using Wine.
+
+VST's dll must installed in /usr/lib/vst. You can override this with
+variable VST_PATH in your ~/.profile
