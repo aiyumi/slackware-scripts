@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+easyrpg-player: EasyRPG Player
+easyrpg-player:
+easyrpg-player: EasyRPG Player is a game interpreter to play RPG Maker 2000,
+easyrpg-player:  2003 and EasyRPG games. It uses liblcf to read RPG Maker game
+easyrpg-player:  data.
+easyrpg-player:
+easyrpg-player: EasyRPG Player is part of the EasyRPG Project.easyrpg-player:
+easyrpg-player:  More information is available at the project website:
+easyrpg-player: https://easy-rpg.org/
+easyrpg-player:
+easyrpg-player:
