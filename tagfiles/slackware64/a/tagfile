@@ -3,7 +3,6 @@ aaa_elflibs:ADD
 aaa_terminfo:ADD
 acl:ADD
 acpid:ADD
-apmd:ADD
 attr:ADD
 bash:ADD
 bin:ADD
@@ -13,8 +12,6 @@ coreutils:ADD
 cpio:ADD
 cpufrequtils:ADD
 cryptsetup:ADD
-cups:ADD
-cxxlibs:ADD
 dbus:ADD
 dcron:ADD
 devs:ADD
@@ -27,6 +24,7 @@ eject:ADD
 elilo:SKP
 elvis:ADD
 etc:ADD
+eudev:ADD
 file:ADD
 findutils:ADD
 floppy:ADD
@@ -42,6 +40,7 @@ grep:ADD
 grub:SKP
 gzip:ADD
 hdparm:ADD
+hwdata:ADD
 infozip:ADD
 inotify-tools:ADD
 jfsutils:SKP
@@ -54,6 +53,7 @@ kmod:ADD
 less:ADD
 lha:SKP
 libcgroup:ADD
+libgudev:ADD
 lilo:ADD
 logrotate:ADD
 lrzip:ADD
@@ -72,7 +72,7 @@ patch:ADD
 pciutils:ADD
 pcmciautils:ADD
 pkgtools:ADD
-procps:ADD
+procps-ng:ADD
 quota:ADD
 reiserfsprogs:SKP
 rpm2tgz:ADD
@@ -93,7 +93,6 @@ tar:ADD
 tcsh:SKP
 time:ADD
 tree:ADD
-udev:ADD
 udisks:ADD
 udisks2:ADD
 unarj:ADD

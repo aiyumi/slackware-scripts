@@ -1,3 +1,4 @@
+Cython:SKP
 autoconf:ADD
 automake:ADD
 binutils:ADD
@@ -21,6 +22,7 @@ gcc-objc:SKP
 gdb:ADD
 gettext-tools:ADD
 git:ADD
+gnu-cobol:SKP
 gperf:ADD
 guile:ADD
 help2man:ADD
@@ -33,15 +35,16 @@ m4:ADD
 make:ADD
 mercurial:SKP
 nasm:ADD
-open-cobol:SKP
 oprofile:SKP
 p2c:SKP
 perl:ADD
 pkg-config:ADD
 pmake:SKP
 python:ADD
+python-setuptools:ADD
 rcs:SKP
 ruby:SKP
+scons:ADD
 slacktrack:SKP
 strace:ADD
 subversion:ADD

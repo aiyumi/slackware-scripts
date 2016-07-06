@@ -10,6 +10,7 @@ damageproto:ADD
 dejavu-fonts-ttf:ADD
 dmxproto:ADD
 dri2proto:ADD
+dri3proto:ADD
 editres:ADD
 encodings:ADD
 evieext:ADD
@@ -76,6 +77,7 @@ libXScrnSaver:ADD
 libXau:ADD
 libXaw:ADD
 libXaw3d:ADD
+libXaw3dXft:ADD
 libXcm:ADD
 libXcomposite:ADD
 libXcursor:ADD
@@ -92,6 +94,7 @@ libXinerama:ADD
 libXmu:ADD
 libXp:ADD
 libXpm:ADD
+libXpresent:ADD
 libXrandr:ADD
 libXrender:ADD
 libXres:ADD
@@ -104,13 +107,19 @@ libXxf86misc:ADD
 libXxf86vm:ADD
 libdmx:ADD
 libdrm:ADD
+libepoxy:ADD
 liberation-fonts-ttf:ADD
+libevdev:ADD
 libfontenc:ADD
 libhangul:ADD
 libpciaccess:ADD
 libpthread-stubs:ADD
+libva:ADD
+libva-intel-driver:ADD
+libvdpau:ADD
 libxcb:ADD
 libxkbfile:ADD
+libxshmfence:ADD
 listres:ADD
 lndir:ADD
 luit:ADD
@@ -120,9 +129,11 @@ mesa:ADD
 mkcomposecache:ADD
 mkfontdir:ADD
 mkfontscale:ADD
+motif:ADD
 mtdev:ADD
 oclock:ADD
 pixman:ADD
+presentproto:ADD
 printproto:ADD
 randrproto:ADD
 recordproto:ADD
@@ -162,6 +173,7 @@ xcalc:ADD
 xcb-proto:ADD
 xcb-util:ADD
 xcb-util-cursor:ADD
+xcb-util-errors:ADD
 xcb-util-image:ADD
 xcb-util-keysyms:ADD
 xcb-util-renderutil:ADD
@@ -187,7 +199,6 @@ xev:ADD
 xextproto:ADD
 xeyes:ADD
 xf86-input-acecad:ADD
-xf86-input-aiptek:ADD
 xf86-input-evdev:ADD
 xf86-input-joystick:ADD
 xf86-input-keyboard:ADD
@@ -197,6 +208,7 @@ xf86-input-synaptics:ADD
 xf86-input-vmmouse:ADD
 xf86-input-void:ADD
 xf86-input-wacom:ADD
+xf86-video-amdgpu:ADD
 xf86-video-apm:ADD
 xf86-video-ark:ADD
 xf86-video-ast:ADD
@@ -211,7 +223,6 @@ xf86-video-i740:ADD
 xf86-video-intel:ADD
 xf86-video-mach64:ADD
 xf86-video-mga:ADD
-xf86-video-modesetting:ADD
 xf86-video-neomagic:ADD
 xf86-video-nouveau:ADD
 xf86-video-nv:ADD

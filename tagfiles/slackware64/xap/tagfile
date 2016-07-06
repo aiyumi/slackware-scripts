@@ -13,13 +13,16 @@ gimp:ADD
 gkrellm:SKP
 gnuchess:SKP
 gnuplot:SKP
+gparted:ADD
 gucharmap:ADD
 gv:ADD
+hexchat:SKP
 imagemagick:ADD
 mozilla-firefox:SKP
 mozilla-thunderbird:SKP
 network-manager-applet:ADD
 pan:ADD
+pavucontrol:ADD
 pidgin:SKP
 rdesktop:SKP
 rxvt:ADD
@@ -31,7 +34,6 @@ windowmaker:SKP
 x11-ssh-askpass:SKP
 x3270:SKP
 xaos:SKP
-xchat:SKP
 xfractint:SKP
 xgames:ADD
 xine-lib:SKP

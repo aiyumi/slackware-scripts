@@ -9,6 +9,9 @@ bpe:SKP
 cdparanoia:ADD
 cdrdao:ADD
 cdrtools:ADD
+cgmanager:ADD
+cups:ADD
+cups-filters:ADD
 dc3dd:SKP
 ddrescue:ADD
 diffstat:ADD
@@ -18,7 +21,6 @@ dmidecode:ADD
 dvd+rw-tools:ADD
 enscript:ADD
 flac:ADD
-foomatic-filters:ADD
 ghostscript:ADD
 ghostscript-fonts-std:ADD
 gphoto2:ADD
@@ -38,6 +40,7 @@ lm_sensors:ADD
 lsof:ADD
 lsscsi:SKP
 lxc:SKP
+lzip:ADD
 madplay:SKP
 man:ADD
 man-pages:ADD
@@ -48,8 +51,10 @@ most:ADD
 mpg123:ADD
 nano:ADD
 normalize:ADD
+pamixer:ADD
 pm-utils:ADD
 powertop:ADD
+qpdf:ADD
 radeontool:ADD
 rpm:ADD
 rzip:SKP
@@ -60,11 +65,13 @@ slackpkg:ADD
 soma:ADD
 sox:ADD
 sqlite:ADD
+squashfs-tools:ADD
 sudo:ADD
 sysstat:SKP
 terminus-font:ADD
 texinfo:ADD
 tmux:ADD
+usbmuxd:ADD
 vbetool:SKP
 vim:ADD
 vorbis-tools:ADD

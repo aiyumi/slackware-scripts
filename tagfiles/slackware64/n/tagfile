@@ -6,7 +6,6 @@ biff+comsat:ADD
 bind:ADD
 bluez:ADD
 bluez-firmware:ADD
-bluez-hcidump:ADD
 bootp:SKP
 bridge-utils:ADD
 bsd-finger:ADD
@@ -54,6 +53,7 @@ libgpg-error:ADD
 libksba:ADD
 libmbim:ADD
 libmnl:ADD
+libndp:ADD
 libnetfilter_acct:ADD
 libnetfilter_conntrack:ADD
 libnetfilter_cthelper:ADD
@@ -61,7 +61,9 @@ libnetfilter_cttimeout:ADD
 libnetfilter_log:ADD
 libnetfilter_queue:ADD
 libnfnetlink:ADD
+libnftnl:ADD
 libqmi:ADD
+libtirpc:ADD
 links:ADD
 lynx:ADD
 mailx:ADD
@@ -93,11 +95,10 @@ netwrite:SKP
 newspost:SKP
 nfacct:ADD
 nfs-utils:ADD
+nftables:ADD
 nmap:ADD
 nn:SKP
 ntp:ADD
-obex-data-server:ADD
-obexfs:ADD
 obexftp:ADD
 openldap-client:ADD
 openobex:ADD
@@ -109,7 +110,6 @@ php:SKP
 pidentd:ADD
 pinentry:ADD
 popa3d:ADD
-portmap:ADD
 ppp:ADD
 procmail:ADD
 proftpd:SKP
@@ -118,6 +118,7 @@ pth:ADD
 rdist:SKP
 rfkill:ADD
 rp-pppoe:ADD
+rpcbind:ADD
 rsync:ADD
 samba:SKP
 sendmail:ADD
