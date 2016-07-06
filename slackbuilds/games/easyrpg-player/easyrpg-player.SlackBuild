@@ -23,7 +23,7 @@
 
 PRGNAM=easyrpg-player
 SRCNAM=Player
-VERSION=${VERSION:-0.3}
+VERSION=${VERSION:-0.3.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-am}
 
@@ -60,7 +60,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$SRCNAM-$VERSION.tar.gz
+tar xvf $CWD/$VERSION.tar.gz
 cd $SRCNAM-$VERSION
 chown -R root:root .
 find . \
