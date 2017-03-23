@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Slackware build script for at-spi2-atk
-# Copyright 2013 Daniele Moriya Martins de Souza - A.K.A. Aiyumi
+# Slackware build script for pyatspi
+# Copyright 2016 Daniele Moriya Martins de Souza - A.K.A. Aiyumi
 # <aiyumi DOT br AT gmail DOT com>
 # All rights reserved.
 #
@@ -23,7 +23,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=pyatspi
-VERSION=${VERSION:-2.8.0}
+VERSION=${VERSION:-2.18.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-am}
 
@@ -78,6 +78,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --localstatedir=/var \
   --mandir=/usr/man \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --with-python=/usr/bin/python3 \
   --build=$ARCH-slackware-linux
 
 make

@@ -1,17 +1,13 @@
-This is the Orca screen reader. It requires gnome-python, atspi2-core,
-atspi2-atk, pyatspi.
+This is the Orca screen reader. It requires speech-dispatcher, python3,
+py3cairo, pygobject3-python3, pyxdg and pyatspi, as well as the atspi2-atk and
+atspi2-core packages that come with Slackware.
 
-After building and installing the package, copy either
-"/usr/doc/orca-x.x-xdesktop/orca.atspi2.xinitrc"
-or
-"/usr/doc/orca-x.x-xdesktop/orca.atspi2.xinitrc"
-to your $HOME and rename it as ".xinitrc". "orca.atspi2.xinitrc" only works
-with AT-SPI2, while "orca.atspi12.xinitrc" works with both, but AT-SPI1 is
-deprecated, so it's recommended that you use AT-SPI2 (the old .xinitrc is only
-here just in case...).
+After building and installing the package, copy the file
+"/usr/doc/orca-*/orca.atspi2.xinitrc"
+to your $HOME and rename it to ".xinitrc."
 
 After that, open the ".xinitrc" in a text editor and uncomment or edit the 
-last line, setting it to start your desktop environment. For example, 
+last line, and set it to start your desktop environment. For example, 
 uncomment (remove the "#") from the line with
 
 #exec /usr/bin/startfluxbox

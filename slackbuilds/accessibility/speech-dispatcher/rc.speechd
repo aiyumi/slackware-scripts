@@ -3,8 +3,8 @@
 # Starts/stops/restarts speech-dispatcher
 start() {
     (cd $HOME
-if [ -d .speech-dispatcher/pid ]; then
-	rm -rf .speech-dispatcher/pid
+if [ -d .cache/speech-dispatcher/pid ]; then
+	rm -rf .cache/speech-dispatcher/pid
 	sleep 0.5
 fi
 )

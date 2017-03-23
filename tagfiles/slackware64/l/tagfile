@@ -62,8 +62,8 @@ glib:ADD
 glib-networking:ADD
 glib2:ADD
 glibc:ADD
-glibc-i18n:SKP
-glibc-profile:SKP
+glibc-i18n:ADD
+glibc-profile:ADD
 glibmm:ADD
 gmime:ADD
 gmm:ADD
@@ -71,7 +71,7 @@ gmp:ADD
 gnome-keyring:ADD
 gnome-themes-standard:ADD
 gnu-efi:SKP
-gobject-introspection:SKP
+gobject-introspection:ADD
 grantlee:ADD
 gsettings-desktop-schemas:ADD
 gsl:ADD
@@ -233,7 +233,7 @@ pycairo:ADD
 pycups:ADD
 pycurl:ADD
 pygobject:SKP
-pygobject3:SKP
+pygobject3:ADD
 pygtk:ADD
 pyrex:ADD
 python-pillow:SKP

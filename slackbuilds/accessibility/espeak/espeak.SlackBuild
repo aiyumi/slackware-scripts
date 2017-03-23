@@ -23,7 +23,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=espeak
-VERSION=${VERSION:-1.46.02}
+VERSION=${VERSION:-1.48.04}
 SRCNAM=${PRGNAM}-${VERSION}-source
 BUILD=${BUILD:-1}
 TAG=${TAG:-am}
@@ -76,7 +76,7 @@ cd src
 cp -f portaudio19.h portaudio.h
 
 # Build
-make
+make AUDIO=runtime
 make install DESTDIR=$PKG
 
 find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \

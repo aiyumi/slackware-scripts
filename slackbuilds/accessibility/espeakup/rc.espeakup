@@ -17,5 +17,41 @@ sleep 1
 echo "soft" > /sys/accessibility/speakup/synth
 sleep 0.5
 
-# Start Espeakup
+# Permissions
+chmod 666 /sys/accessibility/speakup/soft/*
+
+# Sets speech rate and volume
+echo 5 > /sys/accessibility/speakup/soft/rate
+echo 9 > /sys/accessibility/speakup/soft/vol
+sleep 0.5
+
+# Starts/stops/restarts espeakup
+start() {
 espeakup -V en
+}
+
+stop() {
+killall espeakup
+    sleep 0.5
+}
+
+restart() {
+    stop
+    start
+}
+
+case "$1" in
+  'start')
+      start
+ ;;
+  'stop')
+stop
+  ;;
+  'restart')
+restart
+  ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+  ;;
+esac
+
