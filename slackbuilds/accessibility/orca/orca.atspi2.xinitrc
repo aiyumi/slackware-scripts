@@ -33,9 +33,10 @@ fi
 # Variables
 export LOGNAME="GDM"
 export SAL_USE_VCLPLUGIN="gtk"
-export GTK_MODULES="gail:atk-bridge"
+export GTK_MODULES="gail:atk-bridge" # for GTK2
 export GNOME_ACCESSIBILITY=1
-export QT_ACCESSIBILITY=1
+export QT_ACCESSIBILITY=1 # for QT4
+export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1 # for QT5
 sleep="sleep 0.4"
 
 
@@ -55,7 +56,6 @@ $sleep
 
 # Execute things in this order
 cmds[0]="/usr/libexec/at-spi2-registryd --use-gnome-session"
-#cmds[1]="LANG=pt_BR.utf8 /usr/bin/orca"
 cmds[1]="/usr/bin/orca"
 cmds[2]="/usr/bin/lxterminal"
 
