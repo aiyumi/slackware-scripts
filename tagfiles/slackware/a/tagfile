@@ -6,7 +6,7 @@ acpid:ADD
 attr:ADD
 bash:ADD
 bin:ADD
-btrfs-progs:SKP
+btrfs-progs:ADD
 bzip2:ADD
 coreutils:ADD
 cpio:ADD

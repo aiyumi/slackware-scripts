@@ -16,7 +16,7 @@ gcc:ADD
 gcc-g++:ADD
 gcc-gfortran:SKP
 gcc-gnat:SKP
-gcc-go:SKP
+gcc-go:ADD
 gcc-java:SKP
 gcc-objc:SKP
 gdb:ADD
