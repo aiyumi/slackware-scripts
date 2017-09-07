@@ -1,3 +1,6 @@
-After installing the package, to start Espeakup, run the
-"/etc/rc.d/rc.espeakup" script. To start Espeakup on system initialization, call
+After installing the package, edit "/etc/espeakup.conf" to set the Espeak voice
+you want Espeakup to use by default, the pitch, the speech rate and volume.
+
+Then, to start Espeakup, run the "/etc/rc.d/rc.espeakup" script. To start
+Espeakup on system initialization, call
 the script from your "/etc/rc.d/rc.local".

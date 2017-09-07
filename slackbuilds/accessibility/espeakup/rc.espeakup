@@ -3,55 +3,95 @@
 # Create '/dev/(soft)synth' if not present
 (cd /dev
 if [ ! -c /dev/softsynth ]; then
-echo "Creating '/dev/softsynth'"
-mknod softsynth c 10 26
+	echo "Creating '/dev/softsynth'"
+	mknod softsynth c 10 26
 fi
 if [ ! -c /dev/synth ]; then
-echo "Creating '/dev/synth'"
-mknod synth c 10 25
+	echo "Creating '/dev/synth'"
+	mknod synth c 10 25
 fi
-sleep 1
 )
 
 # Load the software synthesizer
 echo "soft" > /sys/accessibility/speakup/synth
+
 sleep 0.5
 
 # Permissions
 chmod 666 /sys/accessibility/speakup/soft/*
 
-# Sets speech rate and volume
-echo 5 > /sys/accessibility/speakup/soft/rate
-echo 9 > /sys/accessibility/speakup/soft/vol
-sleep 0.5
 
+# Code below borrowed from Slint,
+# written by Didier Spaier <didier~at~slint~dot~fr>
+if [ -f /etc/espeakup.conf ]; then
+	. /etc/espeakup.conf
+	[ ! "$rate" = "" ] && echo $rate > /sys/accessibility/speakup/soft/rate
+	[ ! "$vol" = "" ] && echo $vol > /sys/accessibility/speakup/soft/vol
+	[ ! "$pitch" = "" ] && echo $pitch > /sys/accessibility/speakup/soft/pitch
+	if [ ! "$language" = "" ]; then
+		setlanguage="$language"
+	else
+		setlanguage=${LANG%_*}
+	fi
+else
+	setlanguage=${LANG%_*}
+fi
 # Starts/stops/restarts espeakup
-start() {
-espeakup -V en
+espeakup_start() {
+  if [ ! "`ps -C espeakup --noheaders|wc -l`" = "0" ]; then
+    echo "espeakup is already started."
+    espeakup_status
+    exit
+  fi
+  if [ -x /usr/bin/espeakup ]; then
+    echo "Starting espeakup"
+    /usr/bin/espeakup -V $setlanguage
+  else
+    echo "/usr/bin/espeakup not found or non executable"
+  fi
 }
 
-stop() {
-killall espeakup
-    sleep 0.5
+
+espeakup_stop() {
+  NBPROC="`ps -C espeakup --noheaders|wc -l`"
+  if [ ! "$NBPROC" = "0" ]; then
+    echo "Stopping espeakup..."
+    PID="`ps -C espeakup --noheaders -o pid`"
+    kill $PID
+    # Restore the defaults
+    echo 2 > /sys/accessibility/speakup/soft/rate
+    echo 5 > /sys/accessibility/speakup/soft/vol
+    echo 5 > /sys/accessibility/speakup/soft/pitch
+  fi
 }
 
-restart() {
-    stop
-    start
+espeakup_restart() {
+    espeakup_stop
+    sleep 2
+    espeakup_start
+}
+
+espeakup_status() {
+  NBPROC="`ps -C espeakup --noheaders|wc -l`"
+  if [ "$NBPROC" = "0" ]; then
+    echo "espeakup is not started" 
+  elif [ "$NBPROC" = "1" ]; then
+    echo "An espeakup daemon is running, PID: `ps -C espeakup --no-headers -o pid`"
+  else
+    ps -C espeakup -o pid,args
+  fi
 }
 
 case "$1" in
-  'start')
-      start
- ;;
-  'stop')
-stop
-  ;;
-  'restart')
-restart
-  ;;
-  *)
-    echo "Usage: $0 {start|stop|restart}"
-  ;;
+    start)
+	    espeakup_start;;
+    stop)
+		espeakup_stop;;
+    restart)
+		espeakup_restart;;
+    status)
+		espeakup_status;;
+    *)
+        echo "Usage: $0 {start|stop|restart|status}";;
 esac
 
