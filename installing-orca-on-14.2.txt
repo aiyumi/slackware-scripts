@@ -1,4 +1,4 @@
 For instructions on how to use these SlackBuilds to install the Orca screen
 reader on Slackware, check out my blog post at:
 
-http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2
+https://aiyumi.github.io/en/blog/installing-orca-on-slackware-14.2
